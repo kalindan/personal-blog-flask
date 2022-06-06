@@ -13,6 +13,7 @@ from app.utils import get_user_name
 from app.forms import UserLoginForm, UserRegisterForm, CreatePostForm
 from app.models import BlogPost, User
 
+db.create_all()
 
 @login_manager.user_loader
 def load_user(user_id):
