@@ -31,6 +31,7 @@ def get_all_posts():
         all_posts=posts,
         logged_user=get_user_name(),
         logged_in=current_user.is_authenticated,
+        all_posts = True
     )
 
 
@@ -42,6 +43,7 @@ def user_posts():
         all_posts=posts,
         logged_user=get_user_name(),
         logged_in=current_user.is_authenticated,
+        all_posts = False
     )
 
 
