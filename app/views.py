@@ -116,25 +116,6 @@ def delete_post(index):
     db.session.commit()
     return redirect(url_for("get_all_posts"))
 
-
-@app.route("/about")
-def about():
-    return render_template(
-        "about.html",
-        logged_user=get_user_name(),
-        logged_in=current_user.is_authenticated,
-    )
-
-
-@app.route("/contact")
-def contact():
-    return render_template(
-        "contact.html",
-        logged_user=get_user_name(),
-        logged_in=current_user.is_authenticated,
-    )
-
-
 @app.route("/register", methods=["GET", "POST"])
 def register():
     form_user: UserRegisterForm = UserRegisterForm()

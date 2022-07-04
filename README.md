@@ -4,3 +4,4 @@ The goal of this project was to create personal blog web API and play a bit with
 The app was deployed on Heroku: https://personal-blog-flask-test.herokuapp.com/
 
 ## Requirements
+- Register new account
