@@ -25,4 +25,4 @@ The app was deployed on Heroku: https://personal-blog-flask-test.herokuapp.com/
 - Postgresql
 
 ## Frontend
-- all CSS styling was taken from "100 days with Python" course as well as HTML templates, which have been later adjusted by me via Jinja.
+- all Javascript and CSS styling was taken from "100 days with Python" course as well as HTML templates, which have been later adjusted by me via Jinja.
